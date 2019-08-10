@@ -61,7 +61,7 @@ const ConnectionAwareMedia = () => {
 
   return (
     <div className='root-frame'>
-      { base64Image && <img className='responsive' src={base64Image} alt='high resolution' /> }
+      { base64Image && <img className='responsive' src={base64Image} alt='resolution based on effective connection type' /> }
     </div>
   );
 };

@@ -15,45 +15,11 @@
  */
 
 import React from 'react';
-// ray test touch <
-import fetchIntercept from 'fetch-intercept';
-// ray test touch >
 
 import ConnectionAwareMedia from './components/ConnectionAwareMedia';
 import './App.css';
 
 const App = () => {
-  // ray test touch <
-  const unregister = fetchIntercept.register({
-    request: function (url, config) {
-        // Modify the url or config here
-        console.log('ray : [unregister request] url, config => ', url, config);
-        return [url, config];
-    },
-
-    requestError: function (error) {
-        // Called when an error occured during another 'request' interceptor call
-        return Promise.reject(error);
-    },
-
-    response: function (response) {
-        // Modify the reponse object
-        console.log('ray : [unregister response] response => ', response);
-        return response;
-    },
-
-    responseError: function (error) {
-        // Handle an fetch error
-        return Promise.reject(error);
-    }
-  });
-
-  // Call fetch to see your interceptors in action.
-  fetch('http://google.com');
-
-  // Unregister your interceptor
-  unregister();
-  // ray test touch >
   return (
     <div className="App">
       <header className="App-header">

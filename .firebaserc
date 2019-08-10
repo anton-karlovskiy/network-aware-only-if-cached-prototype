@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "network-aware-force-cache",
+    "network-aware-force-cache": "network-aware-force-cache"
+  }
+}

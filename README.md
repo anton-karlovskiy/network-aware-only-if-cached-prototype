@@ -10,3 +10,10 @@ npm install
 npm start
 npm run build
 ```
+
+## Deployment
+[Here](https://network-aware-force-cache.firebaseapp.com/)
+
+## Glitch Source
+* [Link to Glitch App](https://anton-karlovskiy-network-aware-force-cache.glitch.me/)
+* [Link to Project on Glitch](https://glitch.com/~anton-karlovskiy-network-aware-force-cache)

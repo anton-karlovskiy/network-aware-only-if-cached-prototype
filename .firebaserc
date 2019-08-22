@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "network-aware-force-cache",
-    "network-aware-force-cache": "network-aware-force-cache"
+    "default": "network-aware-force-cache"
   }
 }
